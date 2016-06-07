@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Minuto News</title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="#"><img src="img/logo-header-minuto.png" width="435" height="103" class="img-resp" alt="Minuto News" /></a>
+      </div><!-- logo -->
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li class="link-sub">
+          <a href="#">Brasil <span><img src="img/arrow-bottom.png" width="11" height="11" alt="Seta" class="img-resp" /></span></a>
+          <ul class="submenu">
+            <li><a href="#">submenu 1</a></li>
+            <li><a href="#">submenu 2</a></li>
+            <li><a href="#">submenu 3</a></li>
+            <li><a href="#">submenu 4</a></li>
+          </ul><!-- submmenu -->
+        </li>
+        <li class="link-sub">
+          <a href="#">Internacional <span><img src="img/arrow-bottom.png" width="11" height="11" alt="Seta" class="img-resp" /></span></a>
+          <ul class="submenu">
+            <li><a href="#">submenu 1</a></li>
+            <li><a href="#">submenu 2</a></li>
+            <li><a href="#">submenu 3</a></li>
+            <li><a href="#">submenu 4</a></li>
+          </ul><!-- submmenu -->
+        </li>
+        <li class="link-sub">
+          <a href="#">Blogs <span><img src="img/arrow-bottom.png" width="11" height="11" alt="Seta" class="img-resp" /></span></a>
+          <ul class="submenu">
+            <li><a href="#">submenu 1</a></li>
+            <li><a href="#">submenu 2</a></li>
+            <li><a href="#">submenu 3</a></li>
+            <li><a href="#">submenu 4</a></li>
+          </ul><!-- submmenu -->
+        </li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="#">Assine</a></li>
+      </ul><!-- menu -->
+    </header>
+
+    <main>
+      <section class="section-main slide-home">
+        <figure>
+           <span class="trs next"></span>
+           <span class="trs prev"></span>
+         
+           <div id="slider"></div>
+        </figure>
+      </section><!-- slide home -->
+
+      <section class="section-main content-editorias">
+        <div class="container">
+          <div class="header-editorias">
+            <div class="title">
+              <h1>Editorias</h1>
+            </div>
+            <div class="search">
+              <form>
+                <div class="search-date">
+                  <div class="name-label">
+                    <p>Ordenar por:</p>
+                  </div>
+                  <div class="search-select">
+                    <label for="select-date">
+                      <select class="select" name="select-date" id="select-date">
+                        <option>Selecionar</option>
+                        <option valeu="Data">Data</option>
+                        <option value="az">A - Z</option>
+                      </select>
+                    </label>
+                  </div><!-- search select -->
+                </div><!-- search date -->
+                <div class="search-editorias">
+                  <div class="name-label">
+                    <p>Filtrar por:</p>
+                  </div>
+                  <div class="search-select">
+                    <label for="select-editorial">
+                      <select class="select" name="select-editorial" id="select-editorial">
+                        <option>Editoria</option>
+                        <option value="Esporte">Esporte</option>
+                        <option value="País">País</option>
+                        <option value="Rio">Rio</option>
+                        <option value="Cultura">Cultura</option>
+                        <option value="Internacional">Internacional</option>
+                      </select>
+                    </label>
+                  </div><!-- search select -->
+                </div><!-- search editorias -->
+              </form>
+            </div><!-- search -->
+          </div><!-- header editorias -->
+
+          <!-- lista de notícias -->
+          <ul class="list-notices"></ul>
+
+          <div class="header-editorias">
+            <div class="title">
+              <h1>EDITORIAS MAIS LIDAS DA SEMANA</h1>
+            </div>
+          </div><!-- header editorias -->
+          <div class="content-chart">
+            <div id="barchart_values" class="chart"></div>
+          </div><!-- content chart -->
+          <div class="content-text">
+            <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveupassagens de Lorem Ipsum, e mais recentemente</p>
+          </div><!-- content text -->
+        </div><!-- container -->
+      </section><!-- content-home -->
+
+      <section class="section-main content-map">
+        <div id="map"></div>
+      </section><!-- map -->
+
+      <section class="section-main content-contact">
+        <div class="container">
+          <div class="form-contact">
+            <h1>Contato</h1>
+            <form>
+              <label>Nome</label>
+              <input type="text" class="form-input" />
+              <label>Email</label>
+              <input type="text" class="form-input" />
+              <label>Mensagem</label>
+              <textarea type="text" class="form-input"></textarea>
+              <button class="btn">Enviar</button>
+            </form>
+          </div><!-- form contact -->
+          <div class="content-infos">
+            <div class="group-info">
+              <p>Rua dos Alfeneiros, número 4</p>
+              <p>00-91102, Little Whitning, Londres/Inglaterra</p>
+            </div><!-- group info -->
+             <div class="group-info">
+              <p>Tel: (21)40041234 | (21)40041234</p>
+              <p>contato@minutonews.com.br</p>
+            </div><!-- group info -->
+             <div class="group-info">
+              <p>Aberto de segunda a sexta das 09h as 19h</p>
+            </div><!-- group info -->
+          </div><!-- content infos -->
+        </div><!-- container -->
+      </section><!-- content contact -->
+    </main>
+
+    <footer class="section-main">
+      <div class="container">
+        <p>&copy; Entrevista | Front-End</p>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+  </body>
+</html>

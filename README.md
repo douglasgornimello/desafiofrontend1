@@ -40,3 +40,4 @@ O desafio é realizar o desenvolvimento front-end da homepage de um jornal fict�
 - Envie o link do repositório para daniel.lima@oglobo.com.br com o assunto: TESTE - Front-End O Globo
 
 ## Boa sorte!
+
